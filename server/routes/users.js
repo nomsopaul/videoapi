@@ -8,7 +8,7 @@ const router = express.Router();
 router.put("/:id", verifyToken, update)
 
 //delete user
-router.delete(":/id", verifyToken, deleteUser)
+router.delete("/:id", verifyToken, deleteUser)
 
 //get user
 router.get("/find/:id", getUser)
